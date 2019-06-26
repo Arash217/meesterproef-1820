@@ -29,7 +29,7 @@ De groepsleden vulden elkaar goed aan, waardoor wij voor de opdrachtgever iets m
 ### Behaalde leerdoelen
 
 #### Sass en BEM
-Sass en BEM zijn een ideale samen.
+Sass en BEM zijn een ideal samen.
 
 ##### Sass
 Met behulp van Sass kunnen CSS styles in meerdere bestanden gezet worden om ze vervolgens te bundelen voor browsers.
