@@ -33,5 +33,6 @@ Sass en BEM zijn een ideale combinatie.
 Met behulp van Sass kunnen CSS styles in meerdere bestanden gezet worden om ze vervolgens te bundelen voor browsers.
 Hoewel Sass veel functionaliteiten bevat, heb ik alleen gebruik gemaakt van Sass variabelen en Sass nesting, omdat ik alleen deze functionaliteiten nodig had.
 Sass variabelen kunnen als volgt gedeclareerd worden:
+
 ```$gold: #F8D84F;```
 
