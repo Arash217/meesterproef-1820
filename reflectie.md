@@ -18,3 +18,7 @@ Hij gaf ook aan om met Vasilis contact te zoeken, omdat front-end zijn sterke pu
 
 ## Reflectie
 
+Mijn opgestelde leerdoelen heb ik behaald, maar helaas heb ik mijzelf niet kunnen uitdagen.
+Het project vergde te veel inspanning en tijd om uberhaupt meer te leren dan de opgestelde leerdoelen.
+Dit heeft te maken met het feit dat ik een groep leidde om de meesterproef te realiseren.
+Mijn techniek kennis was namelijk veel hoger dan die van de andere groepsleden waardoor ik dus constant concepten ging uitleggen en anderen ging helpen met hun problemen. 
