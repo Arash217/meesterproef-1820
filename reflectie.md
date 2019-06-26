@@ -31,8 +31,79 @@ De groepsleden vulden elkaar goed aan, waardoor wij voor de opdrachtgever iets m
 #### Sass en BEM
 Sass en BEM zijn een ideale combinatie.
 Met behulp van Sass kunnen CSS styles in meerdere bestanden gezet worden om ze vervolgens te bundelen voor browsers.
-Hoewel Sass veel functionaliteiten bevat, heb ik alleen gebruik gemaakt van Sass variabelen en Sass nesting, omdat ik alleen deze functionaliteiten nodig had.
+Hoewel Sass veel functionaliteiten bevat, heb ik gebruik gemaakt van Sass variabelen en Sass nesting, omdat ik alleen deze functionaliteiten nodig had.
 Sass variabelen kunnen als volgt gedeclareerd worden:
 
 ```$gold: #F8D84F;```
 
+Door een dollar teken te gebruiken wordt er een variabele gedeclareerd. 
+In dit voorbeeld wordt er een hex kleur bewaard in de variabele $gold.
+Deze variabele kan dan in andere Sass bestanden gebruikt worden.
+
+Sass nesting werkt door een ampersand & te gebruiken:
+
+```
+.button {
+  color: black;
+  border: none;
+  font-size: 16px;
+  padding: 6px 15px;
+  border-radius: 10px;
+
+  &--large {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+
+  &__image {
+    float: left;
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+  }
+
+  &__image--smaller {
+    width: 15px;
+    height: 15px;
+  }
+
+  &--gray {
+    background-color: #ff1;
+  }
+}
+```
+
+Dit wordt uiteindelijk gecompiled naar: 
+
+```
+.button {
+	 color: black;
+	 border: none;
+	 font-size: 16px;
+	 padding: 6px 15px;
+	 border-radius: 10px;
+}
+ .button--large {
+	 padding-right: 3.5rem;
+	 padding-left: 3.5rem;
+	 padding-top: 0.5rem;
+	 padding-bottom: 0.5rem;
+	 border-radius: 10px;
+}
+ .button__image {
+	 float: left;
+	 width: 15px;
+	 height: 15px;
+	 pointer-events: none;
+}
+ .button__image--smaller {
+	 width: 15px;
+	 height: 15px;
+}
+ .button--gray {
+	 background-color: #ff1;
+}
+```
