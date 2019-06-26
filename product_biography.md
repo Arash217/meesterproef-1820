@@ -1,4 +1,4 @@
-# Meesterproef-persoonlijk
+# Meesterproef
 
 ## Product Biography
 
