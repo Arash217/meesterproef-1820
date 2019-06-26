@@ -21,4 +21,8 @@ Hij gaf ook aan om met Vasilis contact te zoeken, omdat front-end zijn sterke pu
 Mijn opgestelde leerdoelen heb ik behaald, maar helaas heb ik mijzelf niet kunnen uitdagen.
 Het project vergde te veel inspanning en tijd om uberhaupt meer te leren dan de opgestelde leerdoelen.
 Dit heeft te maken met het feit dat ik een groep leidde om de meesterproef te realiseren.
-Mijn techniek kennis was namelijk veel hoger dan die van de andere groepsleden waardoor ik dus constant concepten ging uitleggen en anderen ging helpen met hun problemen. 
+Mijn techniek kennis is namelijk veel hoger dan die van mijn groepsleden, waardoor ik constant dingen ging uitleggen en anderen ging helpen met hun problemen.
+Hierdoor had ik weinig tijd over voor mijzelf.
+Echter, heb ik geen spijt van mijn keuze om samen te werken.
+De groepsleden vulden elkaar goed aan, waardoor wij voor de opdrachtgever iets moois konden realiseren.
+
