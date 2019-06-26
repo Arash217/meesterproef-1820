@@ -29,7 +29,9 @@ De groepsleden vulden elkaar goed aan, waardoor wij voor de opdrachtgever iets m
 ### Behaalde leerdoelen
 
 #### Sass en BEM
-Sass en BEM zijn een ideale combinatie.
+Sass en BEM zijn een ideale samen.
+
+##### Sass
 Met behulp van Sass kunnen CSS styles in meerdere bestanden gezet worden om ze vervolgens te bundelen voor browsers.
 Hoewel Sass veel functionaliteiten bevat, heb ik gebruik gemaakt van Sass variabelen en Sass nesting, omdat ik alleen deze functionaliteiten nodig had.
 Sass variabelen kunnen als volgt gedeclareerd worden:
@@ -107,3 +109,6 @@ Dit wordt uiteindelijk gecompiled naar:
 	 background-color: #ff1;
 }
 ```
+
+De ampersend van een genestelde child wordt dus vervangen door de parent classname.
+
