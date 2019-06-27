@@ -124,4 +124,4 @@ Classes '.button--large' en '.button--gray' zijn hier voorbeelden van.
 #### MVP rapid prototypen
 De opdrachtgever wist niet zeker of een overhoorbot met Google Assistant mogelijk was.
 Hij vroeg aan mijn groep om met een proof of concept / prototype aan te komen om aan te tonen dat het degelijk wel kan.
-Voor de 
+In de eerste twee weken van mijn [product biography](https://github.com/Arash217/meesterproef-1820/blob/master/product_biography.md) staat dit proces beschreven.
