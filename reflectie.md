@@ -67,18 +67,13 @@ Sass nesting werkt door een ampersand & te gebruiken:
     pointer-events: none;
   }
 
-  &__image--smaller {
-    width: 15px;
-    height: 15px;
-  }
-
   &--gray {
     background-color: #ff1;
   }
 }
 ```
 
-Dit wordt uiteindelijk gecompiled naar: 
+De Sass wordt uiteindelijk omgezet naar de volgende CSS: 
 
 ```
 .button {
@@ -101,14 +96,26 @@ Dit wordt uiteindelijk gecompiled naar:
 	 height: 15px;
 	 pointer-events: none;
 }
- .button__image--smaller {
-	 width: 15px;
-	 height: 15px;
-}
  .button--gray {
 	 background-color: #ff1;
 }
 ```
 
-De ampersend van een genestelde child wordt dus vervangen door de parent classname.
+De ampersend van een geneste child wordt dus vervangen door de parent classname.
 
+##### BEM
+Het Sass bestand van het eerdere voorbeeld bestaat uit een parent 'button' met zijn kinderen.
+In de BEM methode wordt deze button het 'block' genoemd.
+Het 'block' is het basis component dat niet afhankelijk is van andere componenten.
+
+Het 'element' is een onderdeel van het block. 
+Het is afhankelijk van het block component en kan niet zonder. 
+Een block kan meerdere elementen bevatten. 
+Een element wordt aangeduid met twee laagstreepjes: __
+Class '.button__image' is een voorbeeld van een element.
+
+Soms is het nodig om de styling van een block aan te passen. 
+Modifiers kunnen gebruikt worden om het design aan te passen van een block. 
+Het is dus geen ander block, maar hetzelfde block maar dan met een aanpassing aan het design. 
+Dit doe je door middel van de block naam gevolgd door de modifier met twee midden streepjes: --
+Classes '.button--large' en '.button--gray' zijn hier voorbeelden van.
