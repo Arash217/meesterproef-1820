@@ -8,7 +8,6 @@ Ik vind wel dat mijn front-end skills nog niet op het niveau is dat ik graag wil
 Mijn leerdoelen voor CSS To The Rescue zijn:
 - Leren Sass te gebruiken, omdat ik er nooit eerder mee heb gewerkt
 - Leren BEM toe te passen, omdat ik tijdens CSS To The Rescue niet de kans had om deze methodology te leren.
-- En tenslotte om beter semantische HTML te schrijven.
 
 Voor Web Design heb ik als leerdoel:
 - Een MVP (minimal viable prototype) rapid prototypen om experimenten te doen
@@ -121,3 +120,8 @@ Het is dus geen ander block, maar hetzelfde block maar dan met een aanpassing aa
 Dit doe je door middel van de block naam gevolgd door de modifier met twee midden streepjes: --
 
 Classes '.button--large' en '.button--gray' zijn hier voorbeelden van.
+
+#### MVP rapid prototypen
+De opdrachtgever wist niet zeker of een overhoorbot met Google Assistant mogelijk was.
+Hij vroeg aan mijn groep om met een proof of concept / prototype aan te komen om aan te tonen dat het degelijk wel kan.
+Voor de 
