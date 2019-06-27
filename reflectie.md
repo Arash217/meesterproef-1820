@@ -112,10 +112,12 @@ Het 'element' is een onderdeel van het block.
 Het is afhankelijk van het block component en kan niet zonder. 
 Een block kan meerdere elementen bevatten. 
 Een element wordt aangeduid met twee laagstreepjes: __
+
 Class '.button__image' is een voorbeeld van een element.
 
 Soms is het nodig om de styling van een block aan te passen. 
 Modifiers kunnen gebruikt worden om het design aan te passen van een block. 
 Het is dus geen ander block, maar hetzelfde block maar dan met een aanpassing aan het design. 
 Dit doe je door middel van de block naam gevolgd door de modifier met twee midden streepjes: --
+
 Classes '.button--large' en '.button--gray' zijn hier voorbeelden van.
