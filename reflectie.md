@@ -125,3 +125,8 @@ Classes '.button--large' en '.button--gray' zijn hier voorbeelden van.
 De opdrachtgever wist niet zeker of een overhoorbot met Google Assistant mogelijk was.
 Hij vroeg aan mijn groep om met een proof of concept / prototype aan te komen om aan te tonen dat het degelijk wel kan.
 Dit proces staat in de eerste twee weken van mijn [product biography](https://github.com/Arash217/meesterproef-1820/blob/master/product_biography.md) beschreven.
+
+### Expert review
+Ik had Vasilis gevraagd of hij feedback kon geven op hoe ik Sass en Bem heb toegepast.
+Vasilis vond de manier hoe ik het toegepast had goed, maar gaf wel feedback hoe ik dit verder kan verbeteren.
+Hij gaf mij de tip om met mijn Sass variabelen, custom CSS properties te gebruiken zodat in nieuwe browsers, styling gemakkelijk en globaal aangepast kan worden. Daarnaast gaf hij de tip om alleen CSS elementen te resetten met een reset als dat nodig was.
